@@ -2,7 +2,7 @@ import { APIRequestContext, expect } from '@playwright/test';
 import { verifyValuesTruthiness } from '../helpers/general/expect.helper';
 
 /**
- * UUID of my created profile
+ * UUID of my created profile, should be hidden in the .env file
  */
 export const userId = 'ecafafea-ef65-4259-bcf8-4bb4bf3d41ad';
 
